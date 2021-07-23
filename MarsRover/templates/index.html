@@ -1,0 +1,43 @@
+{% extends "base.html" %} {% block content %}
+<div class="main position-relative">
+
+    <img src="{{url_for('static', filename='images/wp2305560.jpg')}}" class="image">
+
+    <div class=" d-flex item flex-column flex  justify-content-center">
+
+        <div class="insideText">
+
+            <div class="title">
+                <h3>Mars Rover</h3>
+            </div>
+
+            <div>
+                <label>initial Rover coordinates</label>
+            </div>
+
+            <div id="initial">4,2 EAST</div>
+            <br>
+
+            <div class="panel">
+
+                <input class="form-control" type="text" id="command" name="mars-command" placeholder="command...">
+
+            </div>
+
+            <br>
+            <div style="margin-bottom: 2rem;">
+                <input type="button" value="move the Rover" class="btn btn-primary" onclick="submit();"/>
+            </div>
+
+
+            <div>current position</div>
+            <div id="predresult2">4,2 EAST</div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
