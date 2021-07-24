@@ -23,7 +23,20 @@ Note: all python calls below must be run from ./src
 
 >Running on http://127.0.0.1:5000/ 
 
-![main-web-page](images/main web page.png)
+- opnes the main web page of the API
+- The Mars Rover is initialized with Landing coordinates of (4,2) EAST 
+
+![main-web-page](https://github.com/EbtihalSherif/Mars-Rover/blob/main/images/main%20web%20page.PNG)
+
+- in the text input add your command to move the rover
+- the updated position will be shown under the current position state
+
+![moved-rover](https://raw.githubusercontent.com/EbtihalSherif/Mars-Rover/main/images/moved%20rover.PNG)
+
+Note: as long the api is on any call or command given to the api will take the last position and direction of the rover 
+
+
+
 
 
 
