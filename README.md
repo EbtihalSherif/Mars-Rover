@@ -14,9 +14,17 @@ $ pip install -r requirements.txt
 ```
 
 ### How to use the API
+
+Note: all python calls below must be run from ./MarsRover 
+
+#### unit tests
+- run the unitTest.py file in the python console
+ ```bash
+ unitTest.py
+```
+#### client side web server
 - run the main.py file in the python console
 
-Note: all python calls below must be run from ./src
 ```bash
  main.py
 ```
