@@ -15,7 +15,7 @@ $ pip install -r requirements.txt
 
 ### How to use the API
 
-Note: all python calls below must be run from ./src
+Note: all python calls below must be run from ./MarsRover 
 
 #### unit tests
 - run the unitTest.py file in the python console
